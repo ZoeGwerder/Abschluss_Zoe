@@ -51,17 +51,10 @@ Aus den UID-Pages des Bundes werde ich die Adresse rausholen können. Leider hat
 Inzwischen habe ich auch erreicht, dass Telsearch mir ihre kostenpflichtige API für Recherchen kostenlos zur Verfügung stellt (hier dauerten die Abklärungen einfach länger, weshalb ich davor mit dem Scraper mir die Daten holte.)
 Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rausfinden, wie ich die Koordinaten der Adressen rausfinde.
 
-
-
-
-
-
-
 Die Geschichte: 
 Der Kanton Zug und die Briefkastenfirmen
 
 Storyline:
-
 
 Die Grafik:
 [Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](Vergleichswert und Firmen Kanton übereinander.png)
