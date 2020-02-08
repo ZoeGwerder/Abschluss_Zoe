@@ -2,6 +2,7 @@
 # «Wo gibt es im Kanton Zug am meisten Briefkastenfirmen»
 
 AUSGANGSLAGE:
+
 **These:** 
 Zug ist für seine Briefkastenfirmen bekannt. Nur ist nicht klar – und von Amtsstellen auch nicht zu erfahren – wo diese stecken könnten und in etwa wie viele es sind. Es ist davon auszugehen, dass es solche Ansammlungen gibt. Ort und Ausmass sind unbekannt. 
 Geschichte:
@@ -58,6 +59,7 @@ Storyline:
 
 Die Grafik:
 [Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](Vergleichswert und Firmen Kanton übereinander.png)
+
 Hier sieht man anhand der roten und blauen Punkte, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. 
 Stadt Grafik:
 Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. Denn hier sieht man nun, dass es auch in der Altstadt und beim wohlhabenderen Teil der Stadt (am Hang), wo deutlich weniger Firmen ihren Sitz an derselben Adresse haben, verdächtige Verhältnisse von Telefonbucheinträgen zur Anzahl Firmen gibt. 
