@@ -59,7 +59,7 @@ Storyline:
 
 Die Grafik:
 
-![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](Strassen mit höchstem Vergleichswert.png)
+![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Strassen%20mit%20h%C3%B6chstem%20Vergleichswert.png)
 
 Hier sieht man anhand der roten und blauen Punkte, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. 
 Stadt Grafik:
