@@ -58,7 +58,7 @@ Der Kanton Zug und die Briefkastenfirmen
 Storyline:
 
 Die Grafik:
-![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](Vergleichswert und Firmen Kanton übereinander.png)
+![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](Strassen mit höchstem Vergleichswert.png)
 
 Hier sieht man anhand der roten und blauen Punkte, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. 
 Stadt Grafik:
