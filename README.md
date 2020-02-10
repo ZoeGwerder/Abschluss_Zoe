@@ -22,7 +22,7 @@ Diese befinden sich wohl am ehesten in der Stadt Zug. Vielleicht noch Stadtgrenz
 Ob eine Firma eine Briefkastenfirma ist oder wirklich Mitarbeiter hat, ist von Seiten Handelsregister schwierig zu beurteilen. Wir sehen es den Gesellschaften nicht an. Wir haben nur entsprechende Papiere auf dem Tisch und nur auf Grund dieser Papiere haben wir keine Ahnung, ob dort was dahinter steckt oder nicht. 
 #### Relevanz:
 Erste Telefonate mit dem Handelsregister, der Zuger Kantonalbank sowie dem Amt für Wirtschaft zeigen, dass das Thema Briefkastenfirmen im Kanton Zug quasi ein Tabu-Thema ist. Man will nicht hinschauen und genauer eruieren, welche Firmen nur vorgeben, Büroräume hier zu haben und welche wirklich solche hier betreiben. Entsprechend gross ist die Relevanz in Bezug auf den Newsgehalt – mit dem Potential, auch politisch Wellen zu werfen. 
-Arbeitsprotokoll:
+
 
 ## DIE ARBEIT
 
