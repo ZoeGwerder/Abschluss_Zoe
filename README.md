@@ -61,7 +61,24 @@ Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rau
 #### Titel: 
 Der Kanton Zug und die Briefkastenfirmen
 
-**Storyline:**
+#### Lead:
+Luanda-Leaks
+
+#### Storyline:
+- Texteinstieg mit Überblick über die Firmenzahlen zur Bevölkerungszahl des Kantons Zug - jeder vierte Zuger, Kinder und Greise eingeschlossen, hätte demnach eine Firma. Bei 34000 Firmen werden nur mal gerade rund 18000 als "Betriebe" aufgeführt.
+
+- Grafik "Übersicht über den Kanton". Mit Information, wo wieviele Firmen ansässig sind und dass es vorallem in der Stadt Zug auffällige Anhäufungen gibt. Inklusiver Erklärung des "Verhältnis-Werts" und dessen Bedeutung/Interpretation. Mit Hinweis auf auffällige Punkte auch ausserhalb der Stadt.
+
+- Erklärung zum Thema Briefkastenfirmen (mit Claudia Brunner und Susanne Grau. Studienleiterinnen HSLU Wirtschaftskriminalität und Wirtschaft. Solche zu erkennen extrem schwierig. Erklärung zu c/o-Adressen mit Statement vom Leiter Handeslregister Andreas Hess.
+
+- Blick auf die Stadt. Grafik "Close-up Stadt". Mit Hinweis zu den Luanda-Leaks, welche zu einem Altstadthaus füren, an welchem 41 Firmen registriert sind. Was heisst, dass der Vergleichswert wohl eher zu auffälligkeiten führt. So ist prompt unter der auffälligsten Adresse ein Unternehmen, welches sich "Trust" nennt im Telefonbuch eingetragen. 
+
+- Grafik "Die Top-Strassen verdächtiger Adressen". Das Ranking der Strassen. Dazu die Fakten, wieviele Einwohner die Stadt hat und wie viele Firmen. So hätte dort jede zweite Person eine eigene Firma.
+
+- Erklärung zur Attraktivität von Stadt und Kanton Zug. Mit Statement des Zuger Finanzdirektors Heinz Tännler zur Haltung des Kantons zum Thema Briefkastenfirmen. 
+
+- Abschluss, dass auch bei Luanda-Leaks der Kanton aufgefordert wurde zu handeln. Infos von Brunner und Grau hierzu, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte (mehr Austausch zwischen dem Ämtern zulassen). Auch Heinz Tännler wirft die Frage auf, ob sich dass den wirklich lohne. 
+
 
 #### Grafiken:
 **Übersicht über den Kanton**
