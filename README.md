@@ -32,7 +32,7 @@ Arbeitsprotokoll:
 1.2 Auswertung Geopandas Kanton und Stadt
 1.3 Endprodukt Auswertung
 
-## Das Arbeitsprotokoll
+### Arbeitsprotokoll
 1.	Adressen aufbereiten, so dass das Format für die Abfrage beim Zuger Handelsregister funktioniert. Zudem mussten jene Adressen, welche keine Hausnummer haben separat noch behandelt werden.   
 2.	Mit Selenium Scraper fürs Handelsregister bauen, um alle vorhandenen Adressen abzufragen und jeweils die erste Seite abzuspeichern. Dort gibt es glücklicherweise einen Eintrag, wie viele Firmen unter dieser Adresse zu finden sind. So müssen nicht alle Unterseiten angesteuert werden – bez. ich kann diese in einer zweiten Runde ansteuern, sobald ich weiss, an welchen Adressen es mehr als eine Seite gibt (es sind immer 20 Firmen pro Seite).
 Die ersten 5000 Abfragen gingen gut. Danach ging immer weniger. Ich fing an das zu verarbeitende Dataframe in 1000-er Stücke aufzuteilen und nach jedem Stück den Browser zu schliessen. Dies ging ebenfalls immer schlechter bis ich nur noch 20 Abfragen ohne Error machen konnte. Dann Versuch mit try-except um die Problemstellen zu bauen. Es wurden jedoch immer wieder neue Errors geschmissen. Danach Versuch mit Tor. Anfangs hatte ich versehentlich nur den Firefox (und noch nicht Tor). Dies ging besser. Verschlechterte sich jedoch auch wieder auf wenige 100 Abfragen pro Lauf. Danach mit Tor. Diese IPs schien der Rechner zu kennen. Ich konnte kaum 50 Abfragen machen ohne Error. Versuch mit einem Proxi-Surfer. Dies verstand ich jedoch zu wenig. Die Lösung war am Ende das Löschen der Cookies. Ich baute eine try-except-Schlaufe um das Ganze – so dass bei jedem Error der Browser geschlossen wird und mit der entsprechenden Browsereinstellungen die Cookies gelöscht werden. Mit diesem Kniff konnte ich auch noch die verbliebenen rund 10000 Adressen abfragen. 
@@ -57,7 +57,7 @@ Aus den UID-Pages des Bundes werde ich die Adresse rausholen können. Leider hat
 Inzwischen habe ich auch erreicht, dass Telsearch mir ihre kostenpflichtige API für Recherchen kostenlos zur Verfügung stellt (hier dauerten die Abklärungen einfach länger, weshalb ich davor mit dem Scraper mir die Daten holte.)
 Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rausfinden, wie ich die Koordinaten der Adressen rausfinde.
 
-## DIE GESCHICHTE: 
+# DIE GESCHICHTE: 
 #### Titel: 
 Der Kanton Zug und die Briefkastenfirmen
 
