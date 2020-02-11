@@ -1,0 +1,40 @@
+﻿[DE] Disclaimer 
+Gemäss Art. 16 der Verordnung über das eidgenössische Gebäude- und Wohnungsregister vom 1. Juli 2017 (VGWR; SR 431.841) veröffentlicht das BFS die Daten der Berechtigungsstufen A im Internet. Die Bereitstellung der Strassen und der Gebäudeadressen (beide Stufe A) erfolgt gemäss Art. 26a und 26c der Verordnung über die geografischen Namen vom 21. Mai 2008 (GeoNV; SR 510.625) durch swisstopo. Das BFS teilt swisstopo die Daten und periodisch alle Änderungen mit (Art. 26a Abs. 3 und 26c Abs. 2 GeoNV).
+
+Die amtlichen Verzeichnisse der Strassen (Art. 26a GeoNV) und der Gebäudeadressen (Art. 26c GeoNV) werden aktuell vorbereitet und treten schrittweise bis spätestens 1. Juli 2021 in Kraft (Art. 37a GeoNV).
+
+Um den Zugang zu diesen Daten auch während der Übergangszeit zu ermöglichen, kümmert sich das BFS um eine Zwischenlösung. Es ist ein Zugriff auf die Daten in Listenform möglich, wobei die Bereitstellung grundsätzlich gemäss Art. 26a und 26b GeoNV erfolgt. Diese Listen sind für die Behörden unverbindlich. Nur die von swisstopo erstellten und in Betrieb genommenen amtlichen Verzeichnisse der Strassen und Gebäudeadressen sind behördenverbindlich
+
+Freie Nutzung. Quellenangabe ist Pflicht.
+- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
+- Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
+
+
+[FR] Disclaimer 
+Conformément à l’art. 16 de l’Ordonnance sur le Registre fédéral des bâtiments et des logements du 1er juillet 2017 (ORegBL ; RS 431.841), l’OFS publie les données du niveau d’autorisation A sur Internet. La publication des données des rues et d’adresses des bâtiments (toutes les deux du niveau A) sera assurée par swisstopo conformément aux art. 26a et 26c Ordonnance sur les noms géographiques du 21 mai 2008 (ONGéo ; RS 510.625). L’OFS communique, pour ce faire, régulièrement les données concernées à swisstopo (art. 26a, al. 3 et 26c, al. 2 ONGéo).
+
+Ces répertoires officiels des rues (art. 26a) et des adresses de bâtiments (art. 26c) vont cependant être mis en place et entrer en vigueur graduellement jusqu’au 1er juillet 2021 au plus tard (art. 37a ONGéo).
+
+Afin de permettre l’accès à ces données également pendant cette période transitoire, l’OFS se charge de leurs publications dans l’intervalle. Les publications ayant principalement lieu selon les art. 26a et 26b ONGéo, l’accès y sera possible sous forme de liste.
+Cependant, les données n’ont pas de force obligatoire pour les autorités. Seuls les répertoires officiels des rues et des adresses, établis et mis en service par swisstopo, vont avoir force obligatoire pour les autorités.
+
+
+Utilisation libre. Obligation d’indiquer la source.
+- Vous pouvez utiliser ce jeu de données à des fins non commerciales.
+- Vous pouvez utiliser ce jeu de données à des fins commerciales.
+- L’indication de la source (auteur, titre et lien vers le jeu de données) est obligatoire.
+
+
+[IT] Disclaimer 
+Conformemente all’art. 16 dell’Ordinanza sul Registro federale degli edifici e delle abitazioni del 1° luglio 2017 (OREA; RS 431.841), l’UST pubblica i dati del livello d’autorizzazione A su Internet. La pubblicazione dei dati concernenti le vie e gli indirizzi degli edifici (entrambe di livello A) sarà assicurata da swisstopo conformemente agli articoli 26a e 26c dell’Ordinanza sui nomi geografici del 21 maggio 2008 (ONGeo; RS 510.625). Per fare ciò, l’UST trasmette regolarmente i dati in questione a swisstopo (art. 26a, cpv. 3 e 26c, cpv. 2, ONGeo).
+
+Questi repertori ufficiali delle vie (art. 26a) e degli indirizzi degli edifici (art. 26c) saranno realizzati ed entreranno in vigore gradualmente al più tardi per il 1° luglio 2021 (art. 37a, ONGeo).
+
+Al fine di permettere l’accesso a questi dati anche durante la fase transitoria, l’UST si incarica della loro pubblicazione durante questo intervallo. Le pubblicazioni, sotto forma di lista, avranno luogo secondo gli articoli 26a e 26b dell’ONGeo.
+I suddetti dati non vincoleranno tuttavia le autorità. Solo i repertori ufficiali delle vie e degli indirizzi, istituiti e messi in servizi da swisstopo, vincoleranno le autorità.
+
+Libero utilizzo. Indicazione della fonte obbligatoria.
+- Questo set di dati può essere utilizzato a fini non commerciali.
+- Questo set di dati può essere utilizzato a fini commerciali.
+- È obbligatoria l’indicazione della fonte (autore, titolo e link al set di dati)
