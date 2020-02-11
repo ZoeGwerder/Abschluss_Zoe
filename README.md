@@ -88,7 +88,7 @@ Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtsch
 
 - **Abschluss** mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Claudia Brunner und Susanne Grau, Studienleiterinnen HSLU Wirtschaftskriminalität und Wirtschaft, hierzu, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte (mehr Austausch zwischen den Ämtern zulassen). Heinz Tännler wirft die Frage auf, ob sich das denn wirklich lohne, ist jedoch auch der Meinung, dass man solche Machenschaften nicht tolerieren will.
 
-- **KONTEXTUELLER ZUSATZTEXT (Box)** Erklärung zum Thema Briefkastenfirmen mit Claudia Brunner und Susanne Grau. Was sind Indizien für Briefkastenfirmen, wieso sind diese so schwer zu erkennen und noch schwieriger zum kriminelle Machenschaften zu erkennen.
+- **KONTEXTUELLER ZUSATZTEXT (Box)** Erklärung zum Thema Briefkastenfirmen mit Claudia Brunner und Susanne Grau. Was sind Indizien für Briefkastenfirmen, wieso sind diese so schwer zu erkennen und weshalb ist es noch schwieriger, kriminelle Machenschaften zu verfolgen.
 
 
 
