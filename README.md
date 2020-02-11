@@ -1,7 +1,7 @@
-# Abschlussarbeit Zoe Gwerder
-#### Briefkastenfirmen im Kanton Zug
+#### Abschlussarbeit Zoe Gwerder
+# Briefkastenfirmen im Kanton Zug
 
-## AUSGANGSLAGE (Stand 1. Januar 2019):
+## DIE AUSGANGSLAGE (Stand 1. Januar 2019):
 
 ### These:
 Der Kanton Zug ist für seine Briefkastenfirmen bekannt. Nur ist nicht klar – und von Amtsstellen auch nicht zu erfahren – wo diese stecken könnten und wie viele es in etwa sind. Es ist davon auszugehen, dass es Ansammlungen, also mehrere an einer Adresse, gibt. Das Ausmass und mögliche Standorte sind unbekannt. 
@@ -35,18 +35,19 @@ Erste Telefonate mit dem Handelsregisteramt, der Zuger Kantonalbank sowie dem Am
 
 ### Arbeitsprotokoll
 1.	Adressen aufbereiten, so dass das Format für die Abfrage beim Zuger Handelsregister funktioniert. Zudem mussten jene Adressen, welche keine Hausnummer haben, noch separat noch behandelt werden.   
-2.	- Mit Selenium einen Scraper fürs Handelsregister bauen, um alle vorhandenen Adressen abzufragen und jeweils die erste Seite abzuspeichern. Dort gibt es glücklicherweise einen Eintrag, wie viele Firmen unter dieser Adresse zu finden sind. So müssen nicht alle Unterseiten angesteuert werden – bez. ich könnte diese bei Bedarf in einer zweiten Runde ansteuern, sobald ich weiss, an welchen Adressen es mehr als eine Seite gibt (es sind immer 20 Firmen pro Seite).
+2.	
+- Mit Selenium einen Scraper fürs Handelsregister bauen, um alle vorhandenen Adressen abzufragen und jeweils die erste Seite abzuspeichern. Dort gibt es glücklicherweise einen Eintrag, wie viele Firmen unter dieser Adresse zu finden sind. So müssen nicht alle Unterseiten angesteuert werden – bez. ich könnte diese bei Bedarf in einer zweiten Runde ansteuern, sobald ich weiss, an welchen Adressen es mehr als eine Seite gibt (es sind immer 20 Firmen pro Seite).
 
 - Die ersten 5000 Abfragen gingen gut. Danach ging immer weniger. Ich fing an das zu verarbeitende Dataframe in 1000-er Stücke aufzuteilen und nach jedem Stück den Browser zu schliessen. Dies ging ebenfalls immer schlechter, bis ich nur noch 20 Abfragen ohne Error machen konnte. Dann der Versuch try-except-Schlaufen um die Problemstellen zu bauen. Es wurden jedoch immer wieder neue Errors ausgelöst. 
 
 - Danach der Versuch mit Tor. Anfangs hatte ich versehentlich nur den Firefox (und noch nicht Tor). Dies ging besser. Verschlechterte sich jedoch auch wieder auf wenige 100 Abfragen pro Lauf. Danach wirklich mit Tor. Diese IPs schien der Rechner zu kennen. Ich konnte kaum 50 Abfragen machen ohne Error. 
 
-Versuch mit einem Proxi-Surfer. Dies verstand ich jedoch zu wenig. Die Lösung war am Ende das Löschen der Cookies. Ich baute eine try-except-Schlaufe um das Ganze – so dass bei jedem Error der Browser geschlossen wird und mit der entsprechenden Browsereinstellung die Cookies gelöscht werden. Mit diesem Kniff konnte ich auch noch die verbliebenen rund 10000 Adressen abfragen. 
+- Versuch mit einem Proxi-Surfer. Dies verstand ich jedoch zu wenig. Die Lösung war am Ende das Löschen der Cookies. Ich baute eine try-except-Schlaufe um das Ganze – so dass bei jedem Error der Browser geschlossen wird und mit der entsprechenden Browsereinstellung die Cookies gelöscht werden. Mit diesem Kniff konnte ich auch noch die verbliebenen rund 10000 Adressen abfragen. 
 - Auf Grund der Probleme mit dem Scraper konzentrierte ich mich parallel zum fixen dieses Problems auf das extrahieren und Auswerten der Zahlen der Stadt Zug. Denn gemäss dem Leiter des Handelsregisteramtes (Briefingperson) sind solche Briefkastenadressen vor allem in der Stadt zu erwarten. Auf Grund der Ordnerstruktur die sich daraus ergab (gleiche Filenamen mit unterschiedlichem Inhalt) entschied ich mich, die Stadt sowie die restlichen Gemeinden separat durch den Code zu lassen und die Files am Ende wieder zusammenzufügen.  
 3.	Die Seiten grob auslesen. Sie sind schön strukturiert. 
 4.	Anzahl Firmen sowie Adresse extrahieren. Und codierte Umlaute bereinigen.
-5.	Das File mit den Firmen anhand der Adressen mit dem Adressfile zusammenbringen und schauen, was noch fehlt. Fehlende nochmals durch Scraper hindurch lassen.
-6.	Da die Recherchen ergaben, dass es keine Daten zur Anzahl Büroeinheiten pro Gebäude gibt und auch das vorhandene Register nur Gebäude ausweist, welche mindestens eine Wohnung beinhalten. Erste Datenauswertungen sowie die zwischenzeitliche Berichterstattung zu den Luanda-Leaks, zeigten mir, dass ich dringend einen Referenzwert benötige. Denn die 41 Firmen, welche an der Adresse der Zuger Luanda-Leak-Firma domiziliert sind, fallen ohne Referenzwert nicht auf. Weiss man jedoch, dass die Altstadt nur kleine Gebäude hat, mit meistens höchstens 3-4 Parteien darin, fällt diese Zahl definitiv auf.
+5.	Das File mit den Firmen anhand der Adressen mit dem Adressfile zusammenbringen und schauen, was noch fehlt. Fehlende nochmals durch den Scraper lassen.
+6.	Die Recherchen ergaben, dass es keine Daten zur Anzahl Büroeinheiten pro Gebäude gibt und auch das vorhandene Register nur Gebäude ausweist, welche mindestens eine Wohnung beinhalten. Erste Datenauswertungen sowie die zwischenzeitliche Berichterstattung zu den Luanda-Leaks zeigten mir, dass ich dringend einen Referenzwert benötige. Denn die 41 Firmen, welche an der Adresse der Zuger Luanda-Leak-Firma domiziliert sind, fallen ohne Referenzwert nicht auf. Weiss man jedoch, dass die Altstadt nur kleine Gebäude hat, mit meistens höchstens 3-4 Parteien darin, fällt diese Zahl definitiv auf.
 Mangens Alternative entscheide ich mich für das Telefonbuch. Wohl sind darin bei weitem nicht mehr alle Telefonanschlüsse eingetragen – einige Stichproben zeigen jedoch, dass es als Referenzwert wohl ausreicht.
 7.	Scraper für Telefonbuch bauen und all jene Adressen durchgehen, an welchen mindestens eine Firma zuhause ist. (Eigentlich reichen auch jene, an denen mindestens 10 domiziliert sind, da 10 Firmen wohl auch von einer Person noch gut zu durchschauen sind und ich später nur jene mit mehr als 15 Firmen anschaue). 
 8.	Wie mit den Handelsregistereinträgen nun wieder extrahieren, Umlaute bereinigen und kontrollieren, ob alle erwischt wurden. Fehlende Adressen nochmals durch den Scraper lassen.
@@ -55,49 +56,53 @@ Mangens Alternative entscheide ich mich für das Telefonbuch. Wohl sind darin be
 11.	Auswerten mit Geopandas und klassisch.
 ->	Erkenntnis: Mir fehlen auf Grund falsch gewählten Grundlagen rund ein Drittel aller Firmeneinträge. Die Publikation wird verschoben.
 
-#### Wie weiter:
+### Wie weiter:
 Die Anschliessenden Recherchen für den zu publizierenden Text haben ergeben, dass mir rund ein Drittel der Firmen fehlen. Die Nachforschungen zeigen, dass das Adressregister nur aus Adressen besteht, bei welcher es mindestens eine Wohnung gibt. 
 Abklärungen haben ergeben: Ein vollständiges Adressregister aller von der Post belieferten Adressen gäbe es – kostet alleine für den Kanton Zug aber 1900 Franken. Anfrage betreffend Erlass der Gebühr zur Verwendung der Daten zur Recherche läuft.
-Über Zefix kann ich zwar alle Firmen des Kantons Zug runterladen – und deren UID. Die Abfrage dieser stiess aber bei beiden Portalen auf Widerstände (Bei Zefix IP Sperrung, da es als Massenabfrage erkannt wurde). Die Nachfrage bei der UID-Stelle ergab, dass sie keine Massenabfragen zulassen wollen. Mit dem Wink, dass der Rechner bei mehr als 10 Abfragen pro Minute die IP während einer Minute sperre. Nun versuche ich, mit ausreichend Zeit diese UIDs abzufragen. Stand nach den ersten 24h und 10‘000 Abfragen: es scheint zu funktionieren. 
-Aus den UID-Pages des Bundes werde ich die Adresse rausholen können. Leider hat es dort keine weiteren relevanten Infos ausser, dass ich zusätzlich weiss, welche Firmen eine c/o-Adresse haben. 
-Inzwischen habe ich auch erreicht, dass Telsearch mir ihre kostenpflichtige API für Recherchen kostenlos zur Verfügung stellt (hier dauerten die Abklärungen einfach länger, weshalb ich mir davor mit meinem Scraper die Daten holte.)
+
+Über Zefix kann ich zwar alle Firmen des Kantons Zug runterladen – und deren UID. Die Abfrage dieser stiess aber bei beiden Portalen (HR Zug und Zefix) auf Widerstände (Bei Zefix IP Sperrung, da es als Massenabfrage erkannt wurde). Die Nachfrage bei der UID-Stelle ergab, dass sie keine Massenabfragen zulassen wollen. Mit dem Tipp, dass der Rechner bei mehr als 10 Abfragen pro Minute die IP während einer Minute sperre. Nun versuche ich, mit ausreichend Zeit diese UIDs abzufragen. Stand nach den ersten 24h und 10‘000 Abfragen: Es scheint zu funktionieren. 
+Aus den UID-Pages des Bundes werde ich die Adresse rausholen können. Leider hat es dort keine weiteren relevanten Infos, ausser, dass ich zusätzlich weiss, welche Firmen eine c/o-Adresse haben. 
+Inzwischen habe ich auch erreicht, dass Telsearch mir ihre eigentlich kostenpflichtige API für Recherchen kostenlos zur Verfügung stellt (hier dauerten die Abklärungen einfach länger, weshalb ich mir davor mit meinem Scraper die Daten holte.)
 Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rausfinden, wie ich die Koordinaten der Adressen rausfinde.
 
-# DIE GESCHICHTE: 
+# DIE GESCHICHTE (Anhand der zu diesem Zeitpunkt vorliegenden Fakten): 
 #### Titel: 
 Zug und seine Briefkastenfirmen
 
 #### Lead:
-Die Luanda-Leaks haben einmal mehr die dunklen Seiten des Wirtschaftsstandortes gezeigt. Experten und Kanton sind sich jedoch einige: Will man wirtschaftlich attraktiv bleiben sind gehören solch Seelenlose Firmen dazu - und diese sind wohl nicht nur an der Baarerstrasse zuhause.
+Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtschaftsstandortes wie Zug gezeigt. Experten und Kanton sind sich jedoch einige: Will man wirtschaftlich attraktiv bleiben, gehören solch substanzlose Firmen dazu - und diese sind wohl nicht nur an der Baarerstrasse zuhause.
 
 #### Storyline:
-- Texteinstieg mit Überblick über die Firmenzahlen zur Bevölkerungszahl des Kantons Zug: Jeder vierte Zuger – Kinder und Greise eingeschlossen – hätte demnach eine Firma. Bei 34000 Firmen werden nur mal gerade rund 18000 als "Betriebe" aufgeführt.
+- **Texteinstieg** mit Überblick über die Firmenzahlen zur Bevölkerungszahl des Kantons Zug: Jeder vierte Zuger – Kinder und Greise eingeschlossen – hätte demnach eine Firma. Bei 34000 Firmen werden nur mal gerade rund 18000 als "Betriebe" aufgeführt.
 
-- Grafik "Übersicht über den Kanton". Mit Information, wo wie viele Firmen ansässig sind und dass es vor allem in der Stadt Zug auffällige Anhäufungen gibt. Inklusiver Erklärung des "Verhältnis-Werts" und dessen Bedeutung/Interpretation. Mit Hinweis auf auffällige Punkte auch ausserhalb der Stadt.
+- **Grafik "Übersicht über den Kanton"** mit Information, wo wie viele Firmen ansässig sind und dass es vor allem in der Stadt Zug auffällige Anhäufungen gibt. Inklusiver Erklärung des "Verhältnis-Werts" und dessen Bedeutung/Interpretation. Mit Hinweis auf auffällige Punkte auch ausserhalb der Stadt.
 
--	Erklärung zum Thema Briefkastenfirmen (mit Claudia Brunner und Susanne Grau. Studienleiterinnen HSLU Wirtschaftskriminalität und Wirtschaft). Und dass solche zu erkennen extrem schwierig ist. Erklärung zu c/o-Adressen mit Statement vom Leiter Handelsregister Andreas Hess.
+-	**Erklärung zum Thema Briefkastenfirmen** (mit Claudia Brunner und Susanne Grau. Studienleiterinnen HSLU Wirtschaftskriminalität und Wirtschaft). Und dass solche zu erkennen, extrem schwierig ist. 
 
-- Blick auf die Stadt. Grafik "Close-Up Stadt". Mit Hinweis zu den Luanda-Leaks, welche zu einem Altstadthaus führen, an welchem 41 Firmen registriert sind. Was heisst, dass der Vergleichswert wohl eher zu Auffälligkeiten führt. So ist prompt unter der auffälligsten Adresse ein Unternehmen, welches sich "Trust" nennt im Telefonbuch eingetragen.
+- **Blick auf die Stadt. Grafik "Close-Up Stadt".** Mit Hinweis zu den Luanda-Leaks, welche zu einem Altstadthaus führen, an welchem 41 Firmen registriert sind. Was heisst, dass der Vergleichswert wohl eher zu Auffälligkeiten führt. So ist prompt unter der auffälligsten Adresse ein Unternehmen, welches sich "Trust" nennt im Telefonbuch eingetragen.
 
-- Grafik "Die Top-Strassen verdächtiger Adressen". Das Ranking der Strassen. Dazu die Fakten, wie viele Einwohner die Stadt hat und wie viele Firmen. So hätte dort jede zweite Person eine eigene Firma.
+- **Grafik "Die Top-Strassen verdächtiger Adressen".** Das Ranking der Strassen. Dazu die Fakten, wie viele Einwohner die Stadt hat und wie viele Firmen. So hätte dort jede zweite Person eine eigene Firma.
 
-- Erklärung zur Attraktivität von Stadt und Kanton Zug. Mit Statement des Zuger Finanzdirektors Heinz Tännler zur Haltung des Kantons zum Thema Briefkastenfirmen.
+- **Erklärung zur Attraktivität von Stadt und Kanton Zug**. Mit Statement des Zuger Finanzdirektors Heinz Tännler zur Haltung des Kantons zum Thema Briefkastenfirmen.
 
-- Abschluss mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Brunner und Grau hierzu, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte (mehr Austausch zwischen den Ämtern zulassen). Heinz Tännler wirft die Frage auf, ob sich das denn wirklich lohne.
+- **Abschluss** mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Brunner und Grau hierzu, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte (mehr Austausch zwischen den Ämtern zulassen). Heinz Tännler wirft die Frage auf, ob sich das denn wirklich lohne, ist jedoch auch der Meinung, dass man solche Machenschaften nicht tolerieren will.
 
 
-#### Grafiken:
-**Übersicht über den Kanton**
+## DIE GRAFIKEN:
+
 ![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Firmen%20Kanton%20%C3%BCbereinander.png)
-Hier sieht man anhand der roten und blauen Punkte, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. Ebenfalls ersichtlich sind die Ballungscentren. Adressen mit auffällig vielen Firmen gibt es hauptsächlich in der Stadt Zug. 
+#### **Übersicht über den Kanton Zug**
+Hier sieht man anhand der roten und blauen Punkte, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. Ebenfalls ersichtlich sind die Ballungszentren. Adressen mit auffällig vielen Firmen gibt es hauptsächlich in der Stadt Zug. 
 
-**Close-Up Stadt**
+
 ![Grafik 2: Nähere Betrachtung der Stadt](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Anzahl%20Firmen%20Stadt%20Zug.png)
+#### **Nähere Betrachtung der Stadt Zug**
 Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. Denn hier sieht man nun, dass es auch in der Altstadt und beim wohlhabenderen Teil der Stadt (am Hang), wo deutlich weniger Firmen ihren Sitz an derselben Adresse haben, verdächtige Verhältnisse von Telefonbucheinträgen zur Anzahl Firmen gibt. Wobei dieses Verhältnis mit Vorsicht betrachtet werden muss. Ein Telefonbucheintrag ist nur einer der Indizien für eine existente Firma. 
 
-**Die beliebtesten Briefkastenstrassen**
+
 ![Grafik3: Die Top-Strassen der verdächtigen Adresse](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Strassen%20mit%20h%C3%B6chstem%20Vergleichswert.png)
 
-Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat bestätigt. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind. Einige wenige wohl jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge. Doch wie auch die Luanda-Leaks gezeigt haben, können tatsächlich auch Adressen wie die Untere Altstadt zu den Hotspots gehören. 
+#### **Die beliebtesten Briefkastenstrassen**
+Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat, bestätigt. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind. Einige wenige wohl jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge. Doch wie auch die Luanda-Leaks gezeigt haben, können tatsächlich auch Adressen wie die Untere Altstadt zu den Hotspots gehören. 
 
 
