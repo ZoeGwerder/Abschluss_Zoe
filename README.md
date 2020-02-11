@@ -91,6 +91,7 @@ Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. D
 
 **Die beliebtesten Briefkastenstrassen**
 ![Grafik3: Die Top-Strassen der verdächtigen Adresse](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Strassen%20mit%20h%C3%B6chstem%20Vergleichswert.png)
-Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat bestätigt. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind. Einige wenige wohl jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge.
+
+Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat bestätigt. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind. Einige wenige wohl jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge. Doch wie auch die Luanda-Leaks gezeigt haben, können tatsächlich auch Adressen wie die Untere Altstadt zu den Hotspots gehören. 
 
 
