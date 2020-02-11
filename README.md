@@ -1,5 +1,5 @@
-## Abschlussarbeit Zoe Gwerder
-# «Wo gibt es im Kanton Zug am meisten Briefkastenfirmen»
+# Abschlussarbeit Zoe Gwerder
+## Briefkastenfirmen im Kanton Zug
 
 ## AUSGANGSLAGE:
 
