@@ -2,7 +2,7 @@
 # Briefkastenfirmen im Kanton Zug
 
 ## DIE AUSGANGSLAGE 
-**(Stand 1. Januar 2019)**:
+**(Stand 1. Januar 2020)**:
 
 #### These:
 Der Kanton Zug ist für seine Briefkastenfirmen bekannt. Nur ist nicht klar – und von Amtsstellen auch nicht zu erfahren – wo diese stecken könnten und wie viele es in etwa sind. Es ist davon auszugehen, dass es Ansammlungen, also mehrere an einer Adresse, gibt. Das Ausmass und mögliche Standorte sind unbekannt. 
@@ -73,22 +73,23 @@ Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rau
 Zug und seine Briefkastenfirmen
 
 #### Lead:
-Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtschaftsstandortes wie Zug gezeigt. Experten und Kanton sind sich jedoch einige: Will man wirtschaftlich attraktiv bleiben, gehören solch substanzlose Firmen dazu - und diese sind wohl nicht nur an der Baarerstrasse zuhause.
+Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtschaftsstandortes wie Zug gezeigt. Experten und Kanton sind sich jedoch einige: Will man wirtschaftlich attraktiv bleiben, gehören solch substanzlose Firmen dazu - und diese sind wohl nicht nur in der Stadt Zug zu finden.
 
 #### Storyline:
 - **Texteinstieg** mit Überblick über die Firmenzahlen zur Bevölkerungszahl des Kantons Zug: Jeder vierte Zuger – Kinder und Greise eingeschlossen – hätte demnach eine Firma. Bei 34000 Firmen werden nur mal gerade rund 18000 als "Betriebe" aufgeführt.
 
-- **Grafik "Übersicht über den Kanton"** mit Information, wo wie viele Firmen ansässig sind und dass es vor allem in der Stadt Zug auffällige Anhäufungen gibt. Inklusiver Erklärung des "Verhältnis-Werts" und dessen Bedeutung/Interpretation. Mit Hinweis auf auffällige Punkte auch ausserhalb der Stadt.
+- **Erklärung zur Attraktivität von Stadt und Kanton Zug**. Mit Statement des Zuger Finanzdirektors Heinz Tännler zur Haltung des Kantons zum Thema Briefkastenfirmen sowie zur aktuellen Strategie.
 
--	**Erklärung zum Thema Briefkastenfirmen** (mit Claudia Brunner und Susanne Grau. Studienleiterinnen HSLU Wirtschaftskriminalität und Wirtschaft). Und dass solche zu erkennen, extrem schwierig ist. 
+- **Grafik "Übersicht über den Kanton"** mit Information, wo wie viele Firmen ansässig sind und dass es vor allem in der Stadt Zug auffällige Anhäufungen gibt. Inklusiver Erklärung des "Verhältnis-Werts" und dessen Bedeutung/Interpretation. Mit Hinweis auf auffällige Punkte auch ausserhalb der Stadt.
 
 - **Blick auf die Stadt. Grafik "Close-Up Stadt".** Mit Hinweis zu den Luanda-Leaks, welche zu einem Altstadthaus führen, an welchem 41 Firmen registriert sind. Was heisst, dass der Vergleichswert wohl eher zu Auffälligkeiten führt. So ist prompt unter der auffälligsten Adresse ein Unternehmen, welches sich "Trust" nennt im Telefonbuch eingetragen.
 
 - **Grafik "Die Top-Strassen verdächtiger Adressen".** Das Ranking der Strassen. Dazu die Fakten, wie viele Einwohner die Stadt hat und wie viele Firmen. So hätte dort jede zweite Person eine eigene Firma.
 
-- **Erklärung zur Attraktivität von Stadt und Kanton Zug**. Mit Statement des Zuger Finanzdirektors Heinz Tännler zur Haltung des Kantons zum Thema Briefkastenfirmen.
+- **Abschluss** mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Claudia Brunner und Susanne Grau, Studienleiterinnen HSLU Wirtschaftskriminalität und Wirtschaft, hierzu, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte (mehr Austausch zwischen den Ämtern zulassen). Heinz Tännler wirft die Frage auf, ob sich das denn wirklich lohne, ist jedoch auch der Meinung, dass man solche Machenschaften nicht tolerieren will.
 
-- **Abschluss** mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Brunner und Grau hierzu, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte (mehr Austausch zwischen den Ämtern zulassen). Heinz Tännler wirft die Frage auf, ob sich das denn wirklich lohne, ist jedoch auch der Meinung, dass man solche Machenschaften nicht tolerieren will.
+- **KONTEXTUELLER ZUSATZTEXT (Box)** Erklärung zum Thema Briefkastenfirmen mit Claudia Brunner und Susanne Grau. Was sind Indizien für Briefkastenfirmen, wieso sind diese so schwer zu erkennen und noch schwieriger zum kriminelle Machenschaften zu erkennen.
+
 
 
 ## DIE GRAFIKEN:
