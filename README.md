@@ -66,6 +66,8 @@ Aus den UID-Pages des Bundes werde ich die Adresse rausholen können. Leider hat
 Inzwischen habe ich auch erreicht, dass Telsearch mir ihre eigentlich kostenpflichtige API für Recherchen kostenlos zur Verfügung stellt (hier dauerten die Abklärungen einfach länger, weshalb ich mir davor mit meinem Scraper die Daten holte.)
 Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rausfinden, wie ich die Koordinaten der Adressen rausfinde.
 
+Die Interviews mit Expertinnen, dem Handelsregisteramt und dem Zuger Finanzdirektor sind gemacht. Nun müssen nur noch die Daten stimmen.
+
 ## DIE GESCHICHTE 
 **(Anhand der zu diesem Zeitpunkt vorliegenden Fakten)**
 
@@ -78,7 +80,7 @@ Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtsch
 #### Storyline:
 - **Texteinstieg** mit Überblick über die Firmenzahlen zur Bevölkerungszahl des Kantons Zug: Jeder vierte Zuger – Kinder und Greise eingeschlossen – hätte demnach eine Firma. Bei 34000 Firmen werden nur mal gerade rund 18000 als "Betriebe" aufgeführt.
 
-- **Erklärung zur Attraktivität von Stadt und Kanton Zug**. Mit Statement des Zuger Finanzdirektors Heinz Tännler zur Haltung des Kantons zum Thema Briefkastenfirmen sowie zur aktuellen Strategie.
+- **Erklärung zur Attraktivität von Stadt und Kanton Zug**. Mit Infos von Claudia Brunner und Susanne Grau, Studienleiterinnen HSLU Wirtschaftskriminalität und WirtschaftStatement. Zudem erklärt der Zuger Finanzdirektors Heinz Tännler die Haltung des Kantons zum Thema Briefkastenfirmen sowie zur aktuellen Strategie.
 
 - **Grafik "Übersicht über den Kanton"** mit Information, wo wie viele Firmen ansässig sind und dass es vor allem in der Stadt Zug auffällige Anhäufungen gibt. Inklusiver Erklärung des "Verhältnis-Werts" und dessen Bedeutung/Interpretation. Mit Hinweis auf auffällige Punkte auch ausserhalb der Stadt.
 
@@ -86,7 +88,7 @@ Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtsch
 
 - **Grafik "Die Top-Strassen verdächtiger Adressen".** Das Ranking der Strassen. Dazu die Fakten, wie viele Einwohner die Stadt hat und wie viele Firmen. So hätte dort jede zweite Person eine eigene Firma.
 
-- **Abschluss** mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Claudia Brunner und Susanne Grau, Studienleiterinnen HSLU Wirtschaftskriminalität und Wirtschaft, hierzu, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte (mehr Austausch zwischen den Ämtern zulassen). Heinz Tännler wirft die Frage auf, ob sich das denn wirklich lohne, ist jedoch auch der Meinung, dass man solche Machenschaften nicht tolerieren will.
+- **Abschluss** mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Claudia Brunner und Susanne Grau, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte: mehr und schnellerer Austausch zwischen den Ämtern zulassen. Statement dazu von Heinz Tännler.
 
 - **KONTEXTUELLER ZUSATZTEXT (Box)** Erklärung zum Thema Briefkastenfirmen mit Claudia Brunner und Susanne Grau. Was sind Indizien für Briefkastenfirmen, wieso sind diese so schwer zu erkennen und weshalb ist es noch schwieriger, kriminelle Machenschaften zu verfolgen.
 
