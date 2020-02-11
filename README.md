@@ -1,9 +1,10 @@
 #### Abschlussarbeit Zoe Gwerder
 # Briefkastenfirmen im Kanton Zug
 
-## DIE AUSGANGSLAGE (Stand 1. Januar 2019):
+## DIE AUSGANGSLAGE 
+**(Stand 1. Januar 2019)**:
 
-### These:
+#### These:
 Der Kanton Zug ist für seine Briefkastenfirmen bekannt. Nur ist nicht klar – und von Amtsstellen auch nicht zu erfahren – wo diese stecken könnten und wie viele es in etwa sind. Es ist davon auszugehen, dass es Ansammlungen, also mehrere an einer Adresse, gibt. Das Ausmass und mögliche Standorte sind unbekannt. 
 
 #### Geschichte:
@@ -33,7 +34,7 @@ Erste Telefonate mit dem Handelsregisteramt, der Zuger Kantonalbank sowie dem Am
 - ![1.2 Auswertung Geopandas Kanton und Stadt](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/01.2%20Auswertung%20Geopandas%20Kanton%20und%20Stadt.ipynb)
 - ![1.3 Endprodukt Auswertung](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/01.3%20Endprodukt%20Auswertung.ipynb)
 
-### Arbeitsprotokoll
+#### Arbeitsprotokoll
 1.	Adressen aufbereiten, so dass das Format für die Abfrage beim Zuger Handelsregister funktioniert. Zudem mussten jene Adressen, welche keine Hausnummer haben, noch separat noch behandelt werden.   
 2.	
 - Mit Selenium einen Scraper fürs Handelsregister bauen, um alle vorhandenen Adressen abzufragen und jeweils die erste Seite abzuspeichern. Dort gibt es glücklicherweise einen Eintrag, wie viele Firmen unter dieser Adresse zu finden sind. So müssen nicht alle Unterseiten angesteuert werden – bez. ich könnte diese bei Bedarf in einer zweiten Runde ansteuern, sobald ich weiss, an welchen Adressen es mehr als eine Seite gibt (es sind immer 20 Firmen pro Seite).
@@ -56,7 +57,7 @@ Mangens Alternative entscheide ich mich für das Telefonbuch. Wohl sind darin be
 11.	Auswerten mit Geopandas und klassisch.
 ->	Erkenntnis: Mir fehlen auf Grund falsch gewählten Grundlagen rund ein Drittel aller Firmeneinträge. Die Publikation wird verschoben.
 
-### Wie weiter:
+#### Wie weiter:
 Die Anschliessenden Recherchen für den zu publizierenden Text haben ergeben, dass mir rund ein Drittel der Firmen fehlen. Die Nachforschungen zeigen, dass das Adressregister nur aus Adressen besteht, bei welcher es mindestens eine Wohnung gibt. 
 Abklärungen haben ergeben: Ein vollständiges Adressregister aller von der Post belieferten Adressen gäbe es – kostet alleine für den Kanton Zug aber 1900 Franken. Anfrage betreffend Erlass der Gebühr zur Verwendung der Daten zur Recherche läuft.
 
@@ -65,7 +66,9 @@ Aus den UID-Pages des Bundes werde ich die Adresse rausholen können. Leider hat
 Inzwischen habe ich auch erreicht, dass Telsearch mir ihre eigentlich kostenpflichtige API für Recherchen kostenlos zur Verfügung stellt (hier dauerten die Abklärungen einfach länger, weshalb ich mir davor mit meinem Scraper die Daten holte.)
 Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rausfinden, wie ich die Koordinaten der Adressen rausfinde.
 
-# DIE GESCHICHTE (Anhand der zu diesem Zeitpunkt vorliegenden Fakten): 
+## DIE GESCHICHTE 
+**(Anhand der zu diesem Zeitpunkt vorliegenden Fakten)**
+
 #### Titel: 
 Zug und seine Briefkastenfirmen
 
@@ -90,19 +93,19 @@ Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtsch
 
 ## DIE GRAFIKEN:
 
-![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Firmen%20Kanton%20%C3%BCbereinander.png)
 #### **Übersicht über den Kanton Zug**
 Hier sieht man anhand der roten und blauen Punkte, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. Ebenfalls ersichtlich sind die Ballungszentren. Adressen mit auffällig vielen Firmen gibt es hauptsächlich in der Stadt Zug. 
+![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Firmen%20Kanton%20%C3%BCbereinander.png)
 
-
-![Grafik 2: Nähere Betrachtung der Stadt](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Anzahl%20Firmen%20Stadt%20Zug.png)
 #### **Nähere Betrachtung der Stadt Zug**
 Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. Denn hier sieht man nun, dass es auch in der Altstadt und beim wohlhabenderen Teil der Stadt (am Hang), wo deutlich weniger Firmen ihren Sitz an derselben Adresse haben, verdächtige Verhältnisse von Telefonbucheinträgen zur Anzahl Firmen gibt. Wobei dieses Verhältnis mit Vorsicht betrachtet werden muss. Ein Telefonbucheintrag ist nur einer der Indizien für eine existente Firma. 
+![Grafik 2: Nähere Betrachtung der Stadt](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Anzahl%20Firmen%20Stadt%20Zug.png)
 
-
-![Grafik3: Die Top-Strassen der verdächtigen Adresse](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Strassen%20mit%20h%C3%B6chstem%20Vergleichswert.png)
 
 #### **Die beliebtesten Briefkastenstrassen**
-Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat, bestätigt. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind. Einige wenige wohl jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge. Doch wie auch die Luanda-Leaks gezeigt haben, können tatsächlich auch Adressen wie die Untere Altstadt zu den Hotspots gehören. 
+Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat, bestätigt wird. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind, einige wenige jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge. Doch wie auch die Luanda-Leaks gezeigt haben, können tatsächlich auch Adressen wie die Untere Altstadt zu den Hotspots gehören. 
+![Grafik3: Die Top-Strassen der verdächtigen Adresse](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Strassen%20mit%20h%C3%B6chstem%20Vergleichswert.png)
+
+
 
 
