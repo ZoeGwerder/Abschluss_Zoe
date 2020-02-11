@@ -84,9 +84,9 @@ Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtsch
 
 - **Grafik "Übersicht über den Kanton"** mit Information, wo wie viele Firmen ansässig sind und dass es vor allem in der Stadt Zug auffällige Anhäufungen gibt. Inklusiver Erklärung des "Verhältnis-Werts" und dessen Bedeutung/Interpretation. Mit Hinweis auf auffällige Punkte auch ausserhalb der Stadt.
 
-- **Blick auf die Stadt. Grafik "Close-Up Stadt".** Mit Hinweis zu den Luanda-Leaks, welche zu einem Altstadthaus führen, an welchem 41 Firmen registriert sind. Was heisst, dass der Vergleichswert wohl eher zu Auffälligkeiten führt. So ist prompt unter der auffälligsten Adresse ein Unternehmen, welches sich "Trust" nennt im Telefonbuch eingetragen.
+- **Grafik "Nähere Betrachtung der Stadt Zug"** mit Hinweis zu den Luanda-Leaks, welche zu einem Altstadthaus führen, an welchem 41 Firmen registriert sind. Was heisst, dass der Vergleichswert wohl eher zu Auffälligkeiten führt. So ist prompt unter der auffälligsten Adresse ein Unternehmen, welches sich "Trust" nennt im Telefonbuch eingetragen.
 
-- **Grafik "Die Top-Strassen verdächtiger Adressen".** Das Ranking der Strassen. Dazu die Fakten, wie viele Einwohner die Stadt hat und wie viele Firmen. So hätte dort jede zweite Person eine eigene Firma.
+- **Grafik "Die beliebtesten Briefkastenstrassen"** mit den Fakten, wie viele Einwohner die Stadt hat und wie viele Firmen. So hätte dort jede zweite Person eine eigene Firma.
 
 - **Abschluss** mit Blick auf die Luanda-Leaks, nach deren Publikation der Kanton von linker Seite aufgefordert wurde zu handeln. Infos von Claudia Brunner und Susanne Grau, mit der Erklärung, weshalb dies schwierig ist, und wo man trotzdem noch ansetzten könnte: mehr und schnellerer Austausch zwischen den Ämtern zulassen. Statement dazu von Heinz Tännler.
 
