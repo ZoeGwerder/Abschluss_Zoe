@@ -75,7 +75,7 @@ Die Interviews mit Expertinnen, dem Handelsregisteramt und dem Zuger Finanzdirek
 Zug und seine Briefkastenfirmen
 
 #### Lead:
-Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtschaftsstandortes wie Zug gezeigt. Experten und Kanton sind sich jedoch einige: Will man wirtschaftlich attraktiv bleiben, gehören solch substanzlose Firmen dazu - und diese sind wohl nicht nur in der Stadt Zug zu finden.
+Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtschaftsstandortes wie Zug gezeigt. Experten und Kanton sind sich jedoch einige: Will man wirtschaftlich attraktiv bleiben, gehören solche substanzlose Firmen dazu - und diese sind wohl nicht nur in der Stadt Zug zu finden.
 
 #### Storyline:
 - **Texteinstieg** mit Überblick über die Firmenzahlen zur Bevölkerungszahl des Kantons Zug: Jeder vierte Zuger – Kinder und Greise eingeschlossen – hätte demnach eine Firma. Bei 34000 Firmen werden nur mal gerade rund 18000 als "Betriebe" aufgeführt.
