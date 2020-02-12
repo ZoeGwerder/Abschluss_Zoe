@@ -1,5 +1,5 @@
 #### Abschlussarbeit Zoe Gwerder
-# Briefkastenfirmen im Kanton Zug
+# Zug und seine Briefkastenfirmen
 
 ## DIE AUSGANGSLAGE 
 **(Stand 1. Januar 2020)**:
