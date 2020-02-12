@@ -106,15 +106,18 @@ Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtsch
 
 #### **Übersicht über den Kanton Zug**
 Hier sieht man alle (im Datensatz vorhandenen) Adressen mit Firmen (rot, je mehr Firmen desto grösser) sowie alle Adressen mit mehr als 15 Firmen und einem Vergleichswert von mindestens 5 (blau, je höher der Vergleichswert desto grösser). Die Grafik zeigt, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. Ebenfalls ersichtlich sind die Ballungszentren. Adressen mit auffällig vielen Firmen gibt es hauptsächlich in der Stadt Zug. Doch entgegen den Vermutungen des Leiters des Handelsregisteramtes gibt es solche auch in den Gemeinden – wenn auch deutlich seltener.
+
 ![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Firmen%20Kanton%20%C3%BCbereinander.png)
 
 #### **Nähere Betrachtung der Stadt Zug**
-In der Grafik sind alle Adressen mit mehr als 15 Firmen (rot) sowie alle Adressen mit mindestens 15 Firmen und einem Vergleichswert von 5 und mehr. Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. Denn hier sieht man nun, dass es auch in der Altstadt und beim wohlhabenderen Teil der Stadt (am Hang), wo deutlich weniger Firmen ihren Sitz an derselben Adresse haben (rot), verdächtige Verhältnisse von Telefonbucheinträgen zur Anzahl Firmen gibt (blau). Wobei dieses Verhältnis mit Vorsicht betrachtet werden muss. Ein Telefonbucheintrag ist nur einer der Indizien für eine existente Firma.
+In der Grafik sind alle Adressen mit mehr als 15 Firmen (rot) sowie alle Adressen mit mindestens 15 Firmen und einem Vergleichswert von 5 und mehr zu sehen. Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. Denn hier sieht man nun, dass es auch in der Altstadt und beim wohlhabenderen Teil der Stadt (am Hang), wo deutlich weniger Firmen ihren Sitz an derselben Adresse haben (rot), verdächtige Verhältnisse von Telefonbucheinträgen zur Anzahl Firmen gibt (blau). Wobei dieses Verhältnis mit Vorsicht betrachtet werden muss. Ein Telefonbucheintrag ist nur einer der Indizien für eine existente Firma.
+
 ![Grafik 2: Nähere Betrachtung der Stadt](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Anzahl%20Firmen%20Stadt%20Zug.png)
 
 
 #### **Die beliebtesten Briefkastenstrassen**
-Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat, bestätigt wird. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind, einige wenige jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge. Doch wie auch die Luanda-Leaks gezeigt haben, können tatsächlich auch Adressen wie die Untere Altstadt zu den Hotspots gehören. 
+Hier wird deutlich, dass die These, dass die Baarerstrasse wohl am meisten Adressen mit Briefkastenfirmen hat, bestätigt wird. Die Chamerstrasse scheint hingegen eine Strasse zu sein, an welcher Firmen in Gebäuden mit vielen privaten Einträgen domiziliert sind, einige wenige jedoch einen besonders hohen Vergleichswert aufweisen. Denn bezüglich Vergleichswert steht die Chamerstrasse an zweiter Stelle, obwohl es über das ganze gerechnet an Adressen mit mindestens einer Firma deutlich mehr Telefonbucheinträge gibt, als Firmeneinträge. Zudem zeigt die Rangliste, was nach den Luanda-Leaks zu vermuten war: Tatsächlich können auch Adressen, wie die Untere Altstadt in Zug, zu den Top-Ten-Hotspots des Kantons gehören. 
+
 ![Grafik3: Die Top-Strassen der verdächtigen Adresse](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Strassen%20mit%20h%C3%B6chstem%20Vergleichswert.png)
 
 
