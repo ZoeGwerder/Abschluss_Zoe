@@ -11,6 +11,10 @@ Der Kanton Zug ist für seine Briefkastenfirmen bekannt. Nur ist nicht klar – 
 Wo gibt es im Kanton Zug auffällige Ansammlungen von korrekt registrierten Briefkastenfirmen mit einer c/o-Adresse? Wo sind mögliche Hotspots von nicht mit c/o-Adressen versehenen Briefkastenfirmen? Die Datenanalyse wird durch eine klassische Recherche vor Ort ergänzt und soll zusätzlich Licht ins Dunkle bringen.  
 #### Ausbaumöglichkeiten – Folgegeschichte:  
 Durch eine eventuelle Abfrage des ersten Eintrages sowie der Löschung des Unternehmens könnte man auch noch die Entwicklung der Briefkastenfirmen über die Jahre hinweg eruieren. Gibt es inzwischen wirklich weniger solche Konstrukte, wie in Zug nach dem Auffliegen der Panama-Papers von offizieller Stelle gesagt wurde? (Damals hiess es 700)
+
+#### Aufwand/Ertrag:
+Zwei Datenbanken mit Selenium auslesen ist eher aufwändig. Als Ertrag habe ich dann jedoch zwei Scraper, mit denen ich an alle Daten des Handelsregisters kommen kann und diese neu auswerten kann – mit Potential zu Folgegeschichten und als Recherchenhilfe.
+
 #### Quellen: 
 - Handelsregister (HR) des Kantons Zug: https://zg.chregister.ch/cr-portal/suche/suche.xhtml
 - Verzeichnis aller Adressen BUND:   https://data.geo.admin.ch/ch.bfs.gebaeude_wohnungs_register/CSV/meta.txt
@@ -67,6 +71,8 @@ Inzwischen habe ich auch erreicht, dass Telsearch mir ihre eigentlich kostenpfli
 Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rausfinden, wie ich die Koordinaten der Adressen rausfinde.
 
 Die Interviews mit Expertinnen, dem Handelsregisteramt und dem Zuger Finanzdirektor sind gemacht. Nun müssen nur noch die Daten stimmen.
+Zur Visualisierung fürs Online werden die Firmen auf der Karte mit dem Programm Datawrapper aufbereitet. Der Grafiker ist informiert. Er kann mit Hilfe des Punkte-Bildes diese auf die bei unserer Zeitung gängigen Grafik-Landkarten bringen. Im Print wird es ein Pano mit drei Grafiken. 
+
 
 ## DIE GESCHICHTE 
 **(Anhand der zu diesem Zeitpunkt vorliegenden Fakten)**
@@ -92,16 +98,18 @@ Die Luanda-Leaks haben einmal mehr die Schattenseiten eines florierenden Wirtsch
 
 - **KONTEXTUELLER ZUSATZTEXT (Box)** Erklärung zum Thema Briefkastenfirmen mit Claudia Brunner und Susanne Grau. Was sind Indizien für Briefkastenfirmen, wieso sind diese so schwer zu erkennen und weshalb ist es noch schwieriger, kriminelle Machenschaften zu verfolgen.
 
+- **INFOBOX (box)** Zum Vorgehen der Datenrecherche.
+
 
 
 ## DIE GRAFIKEN:
 
 #### **Übersicht über den Kanton Zug**
-Hier sieht man anhand der roten und blauen Punkte, dass verdächtige Adressen – mit hohem Vergleichswert (blau) – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat (rot). Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. Ebenfalls ersichtlich sind die Ballungszentren. Adressen mit auffällig vielen Firmen gibt es hauptsächlich in der Stadt Zug. 
+Hier sieht man alle (im Datensatz vorhandenen) Adressen mit Firmen (rot, je mehr Firmen desto grösser) sowie alle Adressen mit mehr als 15 Firmen und einem Vergleichswert von mindestens 5 (blau, je höher der Vergleichswert desto grösser). Die Grafik zeigt, dass verdächtige Adressen – mit hohem Vergleichswert – vorderhand an Adressen vorkommen, an denen es per se schon viele Firmen hat. Ausnahmen inbegriffen, wie beispielsweise in Oberägeri. Ebenfalls ersichtlich sind die Ballungszentren. Adressen mit auffällig vielen Firmen gibt es hauptsächlich in der Stadt Zug. Doch entgegen den Vermutungen des Leiters des Handelsregisteramtes gibt es solche auch in den Gemeinden – wenn auch deutlich seltener.
 ![Grafik 1: Anzahl Firmen und verdächtige Vergleichswerte Kanton](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Firmen%20Kanton%20%C3%BCbereinander.png)
 
 #### **Nähere Betrachtung der Stadt Zug**
-Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. Denn hier sieht man nun, dass es auch in der Altstadt und beim wohlhabenderen Teil der Stadt (am Hang), wo deutlich weniger Firmen ihren Sitz an derselben Adresse haben (rot), verdächtige Verhältnisse von Telefonbucheinträgen zur Anzahl Firmen gibt (blau). Wobei dieses Verhältnis mit Vorsicht betrachtet werden muss. Ein Telefonbucheintrag ist nur einer der Indizien für eine existente Firma. 
+In der Grafik sind alle Adressen mit mehr als 15 Firmen (rot) sowie alle Adressen mit mindestens 15 Firmen und einem Vergleichswert von 5 und mehr. Bei näherer Betrachtung wird ersichtlich, dass der Vergleichswert nötig ist. Denn hier sieht man nun, dass es auch in der Altstadt und beim wohlhabenderen Teil der Stadt (am Hang), wo deutlich weniger Firmen ihren Sitz an derselben Adresse haben (rot), verdächtige Verhältnisse von Telefonbucheinträgen zur Anzahl Firmen gibt (blau). Wobei dieses Verhältnis mit Vorsicht betrachtet werden muss. Ein Telefonbucheintrag ist nur einer der Indizien für eine existente Firma.
 ![Grafik 2: Nähere Betrachtung der Stadt](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/Vergleichswert%20und%20Anzahl%20Firmen%20Stadt%20Zug.png)
 
 
