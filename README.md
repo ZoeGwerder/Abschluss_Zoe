@@ -58,8 +58,8 @@ Mangens Alternative entscheide ich mich für das Telefonbuch. Wohl sind darin be
 8.	Wie mit den Handelsregistereinträgen nun wieder extrahieren, Umlaute bereinigen und kontrollieren, ob alle erwischt wurden. Fehlende Adressen nochmals durch den Scraper lassen.
 9.	Frame mit Anzahl Firmen sowie Frame mit Anzahl Telefonbucheinträgen zusammenbringen.
 10.	Um die Relation von Anzahl Firmen und Anzahl Telefonbucheinträge zu erfassen, kreiere ich durch die Division der Firmen durch die Telefonbucheinträge einen Vergleichswert.
-11.	Auswerten mit Geopandas und klassisch.
-->	Erkenntnis: Mir fehlen auf Grund falsch gewählten Grundlagen rund ein Drittel aller Firmeneinträge. Die Publikation wird verschoben.
+11.	Auswerten mit Geopandas und klassisch. Bei der weiteren Textrecherche zeigen Zahlen einer Publikation des Kantons, dass mir rund ein Drittel aller Firmen fehlen.
+->	 Offenbar habe ich falsche Grundlagen beim Adressregister gewählt. Die Publikation wird verschoben. Die Dokumentation für die Abgabe der Arbeit als Version 2 (ohne publizierten Artikel) erstellt.
 
 ##### Zurück auf Feld 1 (Nach dem 7. Februar)
 12. Die Nachforschungen zeigen, dass das Adressregister im Kanton Zug bisher nur aus Adressen besteht, bei welcher es mindestens eine Wohnung gibt. Abklärungen haben ergeben: Ein vollständiges Adressregister aller von der Post belieferten Adressen gäbe es bei der Post – kostet alleine für den Kanton Zug aber 1900 Franken. Gemäss Post gibt es zwar irgendeine Person im Vertrieb von chmedia, die diese Daten hätte. Die Suche nach dieser Person scheint mir jedoch etwas aufwändig. Und wenn mir die Post die Daten zusammenstellt (ohne Geodaten) kostet es trotzdem noch 350 Franken. Ich suche eine Alternative.
