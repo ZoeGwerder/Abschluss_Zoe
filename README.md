@@ -61,21 +61,24 @@ Mangens Alternative entscheide ich mich für das Telefonbuch. Wohl sind darin be
 11.	Auswerten mit Geopandas und klassisch.
 ->	Erkenntnis: Mir fehlen auf Grund falsch gewählten Grundlagen rund ein Drittel aller Firmeneinträge. Die Publikation wird verschoben.
 
+##### Zurück auf Feld 1 (Nach dem 7. Februar)
+12. Die Nachforschungen zeigen, dass das Adressregister im Kanton Zug bisher nur aus Adressen besteht, bei welcher es mindestens eine Wohnung gibt. Abklärungen haben ergeben: Ein vollständiges Adressregister aller von der Post belieferten Adressen gäbe es bei der Post – kostet alleine für den Kanton Zug aber 1900 Franken. Gemäss Post gibt es zwar irgendeine Person im Vertrieb von chmedia, die diese Daten hätte. Die Suche nach dieser Person scheint mir jedoch etwas aufwändig. Und wenn mir die Post die Daten zusammenstellt (ohne Geodaten) kostet es trotzdem noch 350 Franken. Ich suche eine Alternative.
+13. Über Zefix lade ich halbmanuell – dank dem Umstand, dass Kanton Zug nur 11 Gemeinden hat – alle Firmen des Kantons Zug und deren UID runter. Ich gebe die einzelnen Gemeinden von Hand ein und gehe die Unterseiten mit Selenium durch und speichere diese ab. Glücklicherweise kann man auf der Seite die Gemeinde eingeben und alle Firmen werden aufgelistet.
+14. Eigentlich will ich nun mit der UID die Firmendaten abfragen. Beim Handelsregister Zug gelingt dies nicht (ich ging der Sache noch nicht weiter nach). Bei der Zefix-Seite ging es auch nicht. Dort erschien eine Nachricht, meine IP sei gesperrt worden, da es sich um eine Massenabfrage handle.
+15. Die Nachfrage bei der UID-Stelle ergab, dass sie keine Massenabfragen zulassen wollen. Der Herr am Telefon gab mir jedoch den Wink, dass der Rechner bei mehr als 10 Abfragen pro Minute die IP während einer Minute sperre. 
+16. Ich baue in die Abfrage ein Random-Time-Sleep ein, welcher höchstens 10 Abfragen pro Minute machen kann. Es funktioniert. Während fast 80 Stunden werden die rund 34000 UID-Einzelseiten, welche die Adress-Angaben enthalten runtergezogen.
+17. Die Seiten sind gut strukturiert. Ich kann leicht die Adressen rausholen.
+18. Nun benötige ich die Geodaten zu jeder Adresse. Die Abfragen sind bei allen Diensten beschränkt. Um nicht zu viele machen zu müssen filtere ich jene Adressen raus, die noch keine Geodaten haben. Der Versuch mit dem gratis-Angebot OSM misslingt. Ich versuche es mit der API von Google-Maps. Mit zwei kleinen Except-Schlaufen gelingt dies. Nun habe ich bei fast allen Adressen die Geodaten. Aus den Json-Resultaten hole ich mir die Geodaten indem ich die verschachtelten Dicts in einen Satz konvertiere und sie dort mit Regex extrahiere.
+19. Jetzt noch alle neu dazugekommenen Adressen durch das Telefonbuch lassen. Dort habe ich inzwischen ebenfalls eine API. Auf Nachfrage stellen sie mir diese kostenlos zur Verfügung. 
+20. Nun wieder mit den ursprünglichen Daten zu einem Frame machen: Daten anpassen (z.b. Strassennamen extrahieren und Vergleichswert erstellen) und die Geodaten ins Schweizer Format umwandeln. 
+21. Das neue, vollständige Dataframe durch den Geopandas- und Auswertungscode lassen. Neu anschauen.
+
 #### Wie weiter:
-Die Anschliessenden Recherchen für den zu publizierenden Text haben ergeben, dass mir rund ein Drittel der Firmen fehlen. Die Nachforschungen zeigen, dass das Adressregister nur aus Adressen besteht, bei welcher es mindestens eine Wohnung gibt. 
-Abklärungen haben ergeben: Ein vollständiges Adressregister aller von der Post belieferten Adressen gäbe es – kostet alleine für den Kanton Zug aber 1900 Franken. Anfrage betreffend Erlass der Gebühr zur Verwendung der Daten zur Recherche läuft.
-
-Über Zefix kann ich zwar alle Firmen des Kantons Zug runterladen – und deren UID. Die Abfrage dieser stiess aber bei beiden Portalen (HR Zug und Zefix) auf Widerstände (Bei Zefix IP Sperrung, da es als Massenabfrage erkannt wurde). Die Nachfrage bei der UID-Stelle ergab, dass sie keine Massenabfragen zulassen wollen. Mit dem Tipp, dass der Rechner bei mehr als 10 Abfragen pro Minute die IP während einer Minute sperre. Nun versuche ich, mit ausreichend Zeit diese UIDs abzufragen. Stand nach den ersten 24h und 10‘000 Abfragen: Es scheint zu funktionieren. 
-Aus den UID-Pages des Bundes werde ich die Adresse rausholen können. Leider hat es dort keine weiteren relevanten Infos, ausser, dass ich zusätzlich weiss, welche Firmen eine c/o-Adresse haben. 
-Inzwischen habe ich auch erreicht, dass Telsearch mir ihre eigentlich kostenpflichtige API für Recherchen kostenlos zur Verfügung stellt (hier dauerten die Abklärungen einfach länger, weshalb ich mir davor mit meinem Scraper die Daten holte.)
-Dann werde ich die Daten wieder zu einem Frame machen und muss dann noch neu rausfinden, wie ich die Koordinaten der Adressen rausfinde.
-
-Die Interviews mit Expertinnen, dem Handelsregisteramt und dem Zuger Finanzdirektor sind gemacht. Nun müssen nur noch die Daten stimmen.
-Zur Visualisierung fürs Online werden die Firmen auf der Karte mit dem Programm Datawrapper aufbereitet. Der Grafiker ist informiert. Er kann mit Hilfe des Punkte-Bildes diese auf die bei unserer Zeitung gängigen Grafik-Landkarten bringen. Im Print wird es ein Pano mit drei Grafiken. 
-
+Die Interviews mit Expertinnen, dem Handelsregisteramt und dem Zuger Finanzdirektor sind gemacht. Zur Visualisierung fürs Online werden die Firmen auf der Karte mit dem Programm Datawrapper aufbereitet. Der Grafiker ist informiert. Er kann mit Hilfe des Punkte-Bildes diese auf die bei unserer Zeitung gängigen Grafik-Landkarten bringen. Im Print wird es ein Pano mit drei Grafiken geben.
+	
 
 ## DIE GESCHICHTE 
-**(Anhand der zu diesem Zeitpunkt vorliegenden Fakten)**
+**(Anhand der am 7. Februar vorliegenden Fakten)**
 
 #### Titel: 
 Zug und seine Briefkastenfirmen
