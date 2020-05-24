@@ -1,6 +1,8 @@
 #### Abschlussarbeit Zoe Gwerder
 # Zug und seine Briefkastenfirmen
 
+Das Endresultat: [**Zug und die Briefkastenfirmen: die Schattenseiten des Erfolgs**](https://www.luzernerzeitung.ch/zentralschweiz/zug/zug-und-die-briefkastenfirmen-die-schattenseiten-des-erfolgs-ld.1210007)
+
 ## DIE AUSGANGSLAGE 
 **(Stand 1. Januar 2020)**:
 
@@ -40,8 +42,11 @@ Der erste Anlauf übers Handelsregister mit unvollständigen Daten (wie sich am 
 - ![1.3 Endprodukt Auswertung](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/01.3%20Endprodukt%20Auswertung.ipynb)
 
 Der zweite Anlauf via Zefix der zum Endresultat führte
-
-
+- ![300 ZEFIX Hauptfile](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/300%20ZEFIX%20Hauptfile.ipynb)
+- ![300.3 ALLE Endprodukt Auswertung ohne Geodaten](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/300.3%20ALLE%20Endprodukt%20Auswertung%20ohne%20Geodaten.ipynb)
+- Auswertung/Darstellung mit Geopandas und Basemap (leider zu gross für Github-Upload)
+- ![302 ZEFIX fehlende Adresse durch Telsearch API](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/302%20ZEFIX%20fehlende%20Adresse%20durch%20Telsearch%20API.ipynb)
+- ![301 ZEFIX Auslesen der Firmen-Files](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/301%20ZEFIX%20Auslesen%20der%20Firmen-Files.ipynb)
 #### Arbeitsprotokoll
 1.	Adressen aufbereiten, so dass das Format für die Abfrage beim Zuger Handelsregister funktioniert. Zudem mussten jene Adressen, welche keine Hausnummer haben, noch separat noch behandelt werden.   
 2.	
