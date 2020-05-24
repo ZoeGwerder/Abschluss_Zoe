@@ -33,10 +33,14 @@ Erste Telefonate mit dem Handelsregisteramt, der Zuger Kantonalbank sowie dem Am
 ## DIE ARBEIT
 
 #### Zu den Files:
+Der erste Anlauf übers Handelsregister mit unvollständigen Daten (wie sich am Schluss herausstellte)
 - ![01 Endcode Briefkastenfirmen](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/01%20Endcode%20Briefkastenfirmen.ipynb)
 - ![1.1 Adresslisten Aufbereitung](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/01.1%20Adressenliste%20Aufbereitung.ipynb)
 - ![1.2 Auswertung Geopandas Kanton und Stadt](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/01.2%20Auswertung%20Geopandas%20Kanton%20und%20Stadt.ipynb)
 - ![1.3 Endprodukt Auswertung](https://github.com/ZoeGwerder/Abschluss_Zoe/blob/master/01.3%20Endprodukt%20Auswertung.ipynb)
+
+Der zweite Anlauf via Zefix der zum Endresultat führte
+
 
 #### Arbeitsprotokoll
 1.	Adressen aufbereiten, so dass das Format für die Abfrage beim Zuger Handelsregister funktioniert. Zudem mussten jene Adressen, welche keine Hausnummer haben, noch separat noch behandelt werden.   
